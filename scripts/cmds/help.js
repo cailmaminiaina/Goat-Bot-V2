@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🐐 | Goat Bot V2 ]";
+const doNotDelete = "[ <3 | CAIL BOT :) ]";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -100,7 +100,7 @@ module.exports = {
 			let msg = "";
 			if (sortHelp == "name") {
 				const page = parseInt(args[0]) || 1;
-				const numberOfOnePage = 30;
+				const numberOfOnePage = 100;
 				for (const [name, value] of commands) {
 					if (value.config.role > 1 && role < value.config.role)
 						continue;
